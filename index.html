@@ -4,60 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riya Varma | My Portfolio</title>
-  <meta name="description" content="Portfolio of Riya Varma, first year CSE student at IIIT Raichur and aspiring software designer.">
   <link rel="icon" type="image/png" href="image.png">
   <link rel="shortcut icon" type="image/png" href="image.png">
   <link rel="apple-touch-icon" href="image.png">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;600;700;800&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,500&family=Nunito:wght@400;600;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <aside class="side">
-    <div class="profile">
-      <img src="image.png" alt="Photo of Riya Varma">
-      <p class="name">Riya Varma</p>
-      <p class="tag">CSE, IIIT Raichur</p>
+<header id="top">
+      <div class="wrap bar">
+      <a class="logo" href="#top"><img class="logo-img" src="image.png" alt="Riya logo">riya varma</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#activities">Activities</a>
+        <a href="#interests">Interests</a>
+        <a href="#dream">Dream</a>
+        <a href="#campus">Campus</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
+  </header>
 
-    <nav class="menu" aria-label="Sections">
-      <a href="#top">Home</a>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#activities">Activities</a>
-      <a href="#interests">Interests</a>
-      <a href="#dream">Dream</a>
-      <a href="#campus">Campus</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <main>
 
-    <div class="side-foot">
-      <a class="btn" href="mailto:Riyanavya2007@gmail.com">Mail me</a>
-      <a class="side-link" href="https://www.instagram.com/riy.a.exe" target="_blank" rel="noopener">@riy.a.exe</a>
-    </div>
-  </aside>
-
-  <main id="top">
-
-    <section class="hero">
-      <p class="hand">hello, I am</p>
-      <h1>Riya Varma</h1>
-      <p class="role">First year <b>CSE</b> student at <u>IIIT Raichur</u>, who loves to dance and wants to become a <i>software designer</i>.</p>
-      <p>I like making things that look neat and are easy to use. This is my small corner of the internet where you can know me better.</p>
-      <a class="btn" href="#about">Know me</a>
-      <a class="btn btn-line" href="#contact">Say hi</a>
-
-      <div class="stats">
-        <div class="stat"><b>CSE</b><span>1st year, IIIT Raichur</span></div>
-        <div class="stat"><b>90%</b><span>Secondary school, 2023</span></div>
-        <div class="stat"><b>TEDx</b><span>Team member at IIIT Raichur</span></div>
+    <section class="wrap hero">
+      <div class="hero-text">
+        <p class="hand">hello, I am</p>
+        <h1>Riya Varma</h1>
+        <p class="role">First year <b>CSE</b> student at <u>IIIT Raichur</u>, who loves to dance and wants to become a <i>software designer</i>.</p>
+        <p>I like making things that look neat and are easy to use. This is my small corner of the internet where you can know me better.</p>
+        <a class="btn" href="#about">Know me</a>
+        <a class="btn btn-line" href="mailto:Riyanavya2007@gmail.com">Mail me</a>
+      </div>
+      <div class="photo">
+        <img src="image.png" alt="Photo of Riya Varma">
       </div>
     </section>
 
-    <section id="about">
+    <!-- about -->
+    <section id="about" class="wrap">
       <h2>About me</h2>
-      <div class="two">
-        <div class="card">
+      <div class="two-col">
+        <div>
           <p>Hi! I am <strong>Riya Varma</strong> from Jhunjhunu, Rajasthan. I am studying Computer Science and Engineering at <em>IIIT Raichur</em>. Dance is my favourite thing to do, and my favourite food is Maggi noodles. I was also a team member of TEDx at IIIT Raichur.</p>
           <p>Right now I am learning the basics of coding, and this portfolio is made using only HTML and CSS.</p>
         </div>
@@ -66,7 +56,7 @@
           <dl>
             <dt>Name</dt><dd>Riya Varma</dd>
             <dt>Email</dt><dd><a href="mailto:Riyanavya2007@gmail.com">Riyanavya2007@gmail.com</a></dd>
-            <dt>Instagram</dt><dd><a href="https://www.instagram.com/riy.a.exe" target="_blank" rel="noopener">riy.a.exe</a></dd>
+            <dt>Instagram</dt><dd><a href="https://www.instagram.com/riy.a.exe" target="_blank">riy.a.exe</a></dd>
             <dt>Roll no</dt><dd>CS26B1046</dd>
             <dt>College</dt><dd>IIIT Raichur</dd>
             <dt>Branch</dt><dd>CSE, 1st year</dd>
@@ -78,23 +68,23 @@
       </div>
     </section>
 
-    <section id="education">
+
+    <section id="education" class="wrap">
       <h2>Education</h2>
-      <ol class="timeline">
-        <li class="card">
-          <h3>Secondary</h3>
-          <p>Shri Chavo Dadi Vidya Kunj Secondary School</p>
-          <p class="meta">2023 &ndash; 90%</p>
-        </li>
-        <li class="card">
-          <h3>B.Tech in CSE</h3>
-          <p>IIIT Raichur</p>
-          <p class="meta">2026 &ndash; 1st year, going on</p>
-        </li>
-      </ol>
+      <table>
+        <caption>My school and college so far</caption>
+        <thead>
+          <tr><th>Level</th><th>Institute</th><th>Year</th><th>Result / Branch</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Secondary</td><td>Shri Chavo Dadi Vidya Kunj Secondary School</td><td>2023</td><td>90%</td></tr>
+          <tr><td>B.Tech</td><td>IIIT Raichur</td><td>2026</td><td>CSE (1st year, going on)</td></tr>
+        </tbody>
+      </table>
     </section>
 
-    <section id="activities">
+   
+    <section id="activities" class="wrap">
       <h2>Activities</h2>
       <div class="card" id="tedx">
         <h3>TEDx at IIIT Raichur</h3>
@@ -102,7 +92,8 @@
       </div>
     </section>
 
-    <section id="interests">
+
+    <section id="interests" class="wrap">
       <h2>Things I enjoy</h2>
       <div class="card" id="interest-list">
         <h3>Interests</h3>
@@ -114,30 +105,31 @@
       </div>
     </section>
 
-    <section id="dream">
+
+    <section id="dream" class="wrap">
       <h2>My dream</h2>
-      <div class="card">
-        <p>I want to become a <strong>designer in the software field</strong>. My plan to get there:</p>
-        <ol class="steps">
-          <li>Finish B.Tech in CSE from IIIT Raichur</li>
-          <li>Learn programming, HTML, CSS and design basics</li>
-          <li>Make my own small projects and keep improving them</li>
-          <li>Work as a software designer</li>
-        </ol>
-      </div>
+      <p>I want to become a <strong>designer in the software field</strong>. My plan to get there:</p>
+      <ol>
+        <li>Finish B.Tech in CSE from IIIT Raichur</li>
+        <li>Learn programming, HTML, CSS and design basics</li>
+        <li>Make my own small projects and keep improving them</li>
+        <li>Work as a software designer</li>
+      </ol>
     </section>
 
-    <section id="campus">
+  
+    <section id="campus" class="wrap">
       <h2>My college</h2>
       <iframe title="Map of IIIT Raichur" src="https://www.google.com/maps?q=IIIT+Raichur&amp;output=embed" loading="lazy"></iframe>
     </section>
 
-    <section id="contact">
+   
+    <section id="contact" class="wrap">
       <h2>Say hi</h2>
-      <div class="card">
-        <p>You can find me on <a href="https://www.instagram.com/riy.a.exe" target="_blank" rel="noopener">Instagram</a> or send me a mail.</p>
-        <a class="btn" href="mailto:Riyanavya2007@gmail.com">Email me</a>
-      </div>
+      <p>You can find me on <a href="https://www.instagram.com/riy.a.exe" target="_blank">Instagram</a> or send me a mail.</p>
+      <form action="mailto:Riyanavya2007@gmail.com" method="get">
+        <button type="submit" class="btn">Email me</button>
+      </form>
     </section>
 
   </main>
