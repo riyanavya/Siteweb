@@ -44,12 +44,13 @@ h1 { font-family: 'Fraunces', Georgia, serif; font-size: 62px; line-height: 1.05
 .photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
   border: 3px solid #12304d;
-  border-radius: 200px 200px 14px 14px;
+  border-radius: 14px;
   box-shadow: 10px 10px 0 #9ccdf0;
-  background: #cfe8fa;
+  background: #fff;
 }
 
 .btn {
