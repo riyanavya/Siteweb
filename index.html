@@ -11,12 +11,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header id="top">
-    <div class="wrap bar">
+
+<header id="top">
+      <div class="wrap bar">
       <a class="logo" href="#top"><img class="logo-img" src="image.png" alt="Riya logo">riya varma</a>
       <nav>
         <a href="#about">About</a>
         <a href="#education">Education</a>
+        <a href="#activities">Activities</a>
         <a href="#interests">Interests</a>
         <a href="#dream">Dream</a>
         <a href="#campus">Campus</a>
@@ -27,7 +29,6 @@
 
   <main>
 
-   
     <section class="wrap hero">
       <div class="hero-text">
         <p class="hand">hello, I am</p>
@@ -42,12 +43,12 @@
       </div>
     </section>
 
-  
+    <!-- about -->
     <section id="about" class="wrap">
       <h2>About me</h2>
       <div class="two-col">
         <div>
-          <p>Hi! I am <strong>Riya Varma</strong> from Jhunjhunu, Rajasthan. I am studying Computer Science and Engineering at <em>IIIT Raichur</em>. Dance is my favourite thing to do, and my favourite food is Maggi noodles.</p>
+          <p>Hi! I am <strong>Riya Varma</strong> from Jhunjhunu, Rajasthan. I am studying Computer Science and Engineering at <em>IIIT Raichur</em>. Dance is my favourite thing to do, and my favourite food is Maggi noodles. I was also a team member of TEDx at IIIT Raichur.</p>
           <p>Right now I am learning the basics of coding, and this portfolio is made using only HTML and CSS.</p>
         </div>
         <div class="card" id="biodata">
@@ -55,7 +56,7 @@
           <dl>
             <dt>Name</dt><dd>Riya Varma</dd>
             <dt>Email</dt><dd><a href="mailto:Riyanavya2007@gmail.com">Riyanavya2007@gmail.com</a></dd>
-               <dt>Instagram</dt><dd><a href="https://www.instagram.com/riy.a.exe" target="_blank">riy.a.exe</a></dd>
+            <dt>Instagram</dt><dd><a href="https://www.instagram.com/riy.a.exe" target="_blank">riy.a.exe</a></dd>
             <dt>Roll no</dt><dd>CS26B1046</dd>
             <dt>College</dt><dd>IIIT Raichur</dd>
             <dt>Branch</dt><dd>CSE, 1st year</dd>
@@ -66,7 +67,9 @@
         </div>
       </div>
     </section>
-   <section id="education" class="wrap">
+
+
+    <section id="education" class="wrap">
       <h2>Education</h2>
       <table>
         <caption>My school and college so far</caption>
@@ -80,17 +83,26 @@
       </table>
     </section>
 
-    
+   
+    <section id="activities" class="wrap">
+      <h2>Activities</h2>
+      <div class="card" id="tedx">
+        <h3>TEDx at IIIT Raichur</h3>
+        <p>Participated as a <b>team member</b> in the TEDx event held at IIIT Raichur.</p>
+      </div>
+    </section>
+
+
     <section id="interests" class="wrap">
       <h2>Things I enjoy</h2>
-            <div class="card" id="interest-list">
+      <div class="card" id="interest-list">
         <h3>Interests</h3>
         <ul>
-               <li>Dancing</li>
+          <li>Dancing</li>
           <li>Designing things on screen</li>
           <li>Learning how software is made</li>
         </ul>
-         </div>
+      </div>
     </section>
 
 
@@ -98,27 +110,25 @@
       <h2>My dream</h2>
       <p>I want to become a <strong>designer in the software field</strong>. My plan to get there:</p>
       <ol>
-           <li>Finish B.Tech in CSE from IIIT Raichur</li>
-           <li>Learn programming, HTML, CSS and design basics</li>
-           <li>Make my own small projects and keep improving them</li>
+        <li>Finish B.Tech in CSE from IIIT Raichur</li>
+        <li>Learn programming, HTML, CSS and design basics</li>
+        <li>Make my own small projects and keep improving them</li>
         <li>Work as a software designer</li>
       </ol>
     </section>
 
-   
+  
     <section id="campus" class="wrap">
       <h2>My college</h2>
-         <iframe title="Map of IIIT Raichur" src="https://www.google.com/maps?q=IIIT+Raichur&amp;output=embed" loading="lazy"></iframe>
+      <iframe title="Map of IIIT Raichur" src="https://www.google.com/maps?q=IIIT+Raichur&amp;output=embed" loading="lazy"></iframe>
     </section>
-  <section id="contact" class="wrap">
+
+   
+    <section id="contact" class="wrap">
       <h2>Say hi</h2>
-      <p>Write a message below or find me on <a href="https://www.instagram.com/riy.a.exe" target="_blank">Instagram</a>.</p>
-      <form action="mailto:Riyanavya2007@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name">
-        <label for="msg">Message</label>
-        <textarea id="msg" name="message" rows="4"></textarea>
-        <button type="submit" class="btn">Send message</button>
+      <p>You can find me on <a href="https://www.instagram.com/riy.a.exe" target="_blank">Instagram</a> or send me a mail.</p>
+      <form action="mailto:Riyanavya2007@gmail.com" method="get">
+        <button type="submit" class="btn">Email me</button>
       </form>
     </section>
 
